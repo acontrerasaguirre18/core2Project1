@@ -1,0 +1,89 @@
+/* imported fonts */
+
+@font-face {
+    font-family: tempel;
+    src:url('tempelgrotesk-wide-TRIAL.otf')
+}
+/* imported fonts end*/
+
+/* Home page styles */
+
+/* body{} */
+
+
+section {
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    line-height: 3.5vw;
+    
+}
+
+div:nth-child(1) {
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+div:nth-child(2) {
+    font-size: 2vw;
+    font-weight: 300;
+    
+}
+
+div:nth-child(3) {
+    font-size: 2vw;
+    font-weight: 100;
+    line-height: 1vw;
+}
+
+
+
+.dot {
+    display: flex;
+    justify-content: right;
+    height: 6vw;
+    width: 6vw;
+    position: fixed;
+    bottom: 1%;
+    background-color: #000000;
+    border-radius: 80%;
+    transition: 0.5s;
+  }
+
+  a{
+    opacity: 0;
+  }
+
+.dot .glyph1 {
+    display: none;
+    transition: 0.5s;
+    opacity: 100;  
+    font-weight: 500;
+    font-family: tempel;
+    color: black;
+    position: absolute;
+    bottom: 1%;
+    left: 100%;
+    font-size: 15vw;
+    line-height: 85%;
+    letter-spacing: 0.02em;
+    text-align: right;
+    
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black(255, 255, 255);
+}
+
+
+.dot:hover{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.dot:hover .glyph1{
+    transition: 1s;
+    display: flex;
+}
+
+
+/* Page 1 Styles */

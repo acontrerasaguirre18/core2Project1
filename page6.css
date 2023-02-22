@@ -1,0 +1,66 @@
+
+section {
+        display: flex; 
+        flex-wrap: wrap;
+        
+}
+.dot {
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom:1%;
+    left:1%;
+    background-color: #000000;
+    border-radius: 80%;
+    display: inline-block;
+  } 
+
+section div {
+    font-family: 'Neue Haas Unica W1G';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vw;
+    line-height: 95%;
+    letter-spacing: -0.06em;
+    color: #000000;
+    
+}
+
+.ph1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    text-align: left;
+    
+}
+
+.ph2 {
+    color: #ffffff;
+    transition: .7s;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    text-align: right;
+}
+
+
+.dot:hover {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+.dot:hover .ph2{
+    color: rgb(0, 0, 0);
+}
+
+a {
+    font-size: 3vw;
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+    line-height: 0%;
+    opacity: 0;
+}

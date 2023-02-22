@@ -1,0 +1,134 @@
+/* imported fonts */
+
+@font-face {
+    font-family: tempel;
+    src:url('tempelgrotesk-wide-TRIAL.otf')
+}
+
+
+section{
+    font-size: 8vw;
+}
+
+a{
+    text-decoration: none;
+    position: absolute;
+    right: 1vw;
+    font-size: 5vw;
+     opacity: 0;
+}
+.flex-container{
+    display: flex;
+    flex-flow: column;
+    line-height: 6.5vw;
+    position: absolute;
+    left: 1%;
+    text-align: left;
+}
+
+.dot {
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+    height: 6vw;
+    width: 6vw;
+    background-color: #000000;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.flex-container2 { 
+    text-align: left;
+    align-content: center;
+}
+
+.change1 {
+    /* display: none;  */
+    flex-flow: column;    
+    position: fixed;
+    bottom: 1%;
+    left: 1%; 
+}
+   
+.dot .change1 {
+    display: none;
+    transition: 0.5s;
+    opacity: 100;  
+    font-weight: 500;
+    font-family: tempel;
+    color: black;
+    position: absolute;
+    bottom: 1%;
+    left: 100%;
+    font-size: 15vw;
+    line-height: 85%;
+    letter-spacing: 0.02em;
+    text-align: right;
+    
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black(255, 255, 255);
+    
+    }
+    
+    
+    .dot:hover{
+        background-color: #ffffff;
+        border: 2px solid #000000;
+    }
+    
+    .dot:hover .change1{
+        transition: 1s;
+        display: flex;
+    }
+
+
+/* section {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 20px;
+}
+section div {
+    font-family: "Neue Haas Unica W1G", sans-serif;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 7vw;
+    line-height: 75%;
+}
+
+.glyph1 {
+    font-weight: 500;
+    font-family: tempel;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15vw;
+    line-height: 85%;
+    letter-spacing: 0.01em;;
+    margin: 1vw ;
+    
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+    
+}
+
+.dot {
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom:1%;
+    right: 0%;
+    background-color: #000000;
+    border-radius: 80%;
+    display: inline-block;
+    margin: 10px;
+  }
+
+.dot:hover {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+ */

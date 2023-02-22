@@ -1,0 +1,72 @@
+/* imported fonts */
+
+@font-face {
+    font-family: tempel;
+    src:url('tempelgrotesk-wide-TRIAL.otf')
+}
+
+a{
+    opacity: 0;
+}
+body {
+    margin: 0;
+}
+section {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 0px;
+
+}
+
+section div {
+    font-weight: 500;
+    font-family: tempel;
+    color: black;
+    position: absolute;
+    font-size: 12vw;
+    line-height: 10vw;
+    letter-spacing: 0.01em;
+    margin: 1%;
+    
+}
+
+
+.dot {
+    display: flex;
+    justify-content: right;
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    background-color: #000000;
+    border-radius: 80%;
+    transition: 0.5s;
+  }
+
+
+.dot .glyph1 {
+    display: none;
+    transition: 0.5s;
+    opacity: 100;  
+    font-weight: 500;
+    font-family: tempel;
+    color: black;
+    position: absolute;
+    bottom: 1%;
+    left: -700%;
+    font-size: 13vw;
+    line-height: 85%;
+    letter-spacing: 0.01em;;
+}
+
+
+.dot:hover{
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.dot:hover .glyph1{
+    transition: 1s;
+    display: flex;
+}

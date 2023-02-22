@@ -1,0 +1,54 @@
+body{
+    margin: 1%;
+}
+section {
+    font-family: 'Neue Haas Unica W1G';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    color: #000000;
+    position: relative;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+ .flex-container2{
+    position: absolute;
+    top: 60%;
+ }
+
+ .inPoetry {
+    font-family: 'Neue Haas Unica W1G';
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    left: 1%;
+}
+
+.ph {
+    
+    /* display: none; */
+    font-weight: 700;
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+    left: 1%;
+    text-align: right;
+}
+
+.inPoetry:hover {
+    font-style: italic;
+    transition: .5s;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}

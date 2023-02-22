@@ -1,0 +1,130 @@
+/* imported fonts */
+
+@font-face {
+    font-family: tempel;
+    src:url('tempelgrotesk-wide-TRIAL.otf')
+}
+
+/* imported fonts end*/
+body {
+    background-color: black;
+    height: 4200px;
+}
+
+section{
+    color: white;
+    font-family: 'Neue Haas Unica W1G';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 95%;
+    letter-spacing: -0.01em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .flex-contianer{
+    display: none;
+    flex-wrap: wrap;
+}    */
+
+.glyph1 {
+    font-weight: 500;
+    font-family: tempel;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    font-size: 15vw;
+    line-height: 85%;
+    letter-spacing: 0.02em;
+    
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(0, 0, 0); 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:rgb(255, 255, 255)
+} 
+
+.ph1 {
+    font-size: 2vw;
+    position: absolute;
+    top: 700px;
+    margin: 10%;
+    color: #ffffff;
+    
+}
+
+.glyph2 {
+    font-weight: 500;
+    font-family: tempel;
+    position: absolute;
+    top: 1700px;
+    left: 3%;
+    font-size: 14vw;
+    line-height: 85%;
+    letter-spacing: 0.02em;
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(0, 0, 0); 
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:rgb(255, 255, 255)
+} 
+.problem1 {
+    text-align:left;
+}
+.enclose1 {
+    position:fixed;
+    top:3%;
+    left:1%;
+    width: 20%;}
+
+    .problem {
+    text-align:right
+}
+
+.enclose {
+    position:fixed;
+    bottom:3%;
+    width: 98%;
+}
+
+
+.ph2 {
+    font-size: 2vw;
+    position: absolute;
+    top: 2400px;
+    margin: 10%;
+    color: #ffffff;
+    
+}
+
+.ph3 {
+    font-size: 2vw;
+    position: absolute;
+    top: 3500px;
+    margin: 10%;
+    color: #ffffff;
+    
+}
+ .dot {
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    bottom: -405%;
+    left: 1%;
+    background-color: #ffffff;
+    border-radius: 80%;
+    display: inline-block;
+}
+    
+    .dot:hover {
+        background-color: #000000;
+        border: 2px solid #ffffff;
+}
+
+a {
+    font-size: 2vw;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    line-height: 0%;
+    opacity: 0; 
+}

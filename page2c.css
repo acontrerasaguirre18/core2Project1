@@ -1,0 +1,61 @@
+section{
+    font-size: 8vw;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: column;
+    line-height: 6vw;
+    position: absolute;
+    left: 1%;
+    text-align: left;
+}
+
+.dot {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    height: 6vw;
+    width: 6vw;
+    background-color: #000000;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.flex-container2{
+    text-align: left;
+}
+.change1{
+    display: none;
+    flex-flow: column;    
+    position: absolute;
+    bottom: 1%;
+    left: 1%; 
+}
+
+
+    
+a{
+    font-size: 5vw;
+     opacity: 0;
+}
+    
+.dot .change1 {
+    transition: 0.5s;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    line-height: 75%;
+    letter-spacing: 0.02em;
+    }
+    
+    
+    .dot:hover{
+        background-color: #ffffff;
+        border: 2px solid #000000;
+    }
+    
+    .dot:hover .change1{
+        transition: 1s;
+        display: flex;
+    }
